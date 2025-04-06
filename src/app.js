@@ -5,10 +5,12 @@ import connectDB from "./config/db.config.js";
 import { config } from "./config/env.config.js";
 import userRoutes from "./routes/userRoutes.js";
 import { logger } from "./config/logger.config.js";
+import { connectSocket } from "./config/ws.config.js";
 
 const app = express();
 
 connectDB();
+connectSocket();
 
 app.use(express.json());
 
