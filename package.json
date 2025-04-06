@@ -1,13 +1,26 @@
 {
   "name": "ais-vibra",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A full-stack Express app with MongoDB and logging.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.6.2"
+  "packageManager": "pnpm@10.6.2",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "winston": "^3.17.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }

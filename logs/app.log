@@ -1,0 +1,21 @@
+2025-04-06T03:46:12.463Z info: Server running on port 5001
+2025-04-06T03:46:42.464Z error: Error: getaddrinfo ENOTFOUND mongo
+2025-04-06T03:46:57.829Z info: Server running on port 5001
+2025-04-06T03:46:59.554Z info: Server running on port 5001
+2025-04-06T03:46:59.752Z info: Server running on port 5001
+2025-04-06T03:46:59.950Z info: Server running on port 5001
+2025-04-06T03:47:00.179Z info: Server running on port 5001
+2025-04-06T03:47:03.138Z info: Server running on port 5001
+2025-04-06T03:47:03.313Z info: Server running on port 5001
+2025-04-06T03:47:03.513Z info: Server running on port 5001
+2025-04-06T03:47:33.514Z error: Error: getaddrinfo ENOTFOUND mongo
+2025-04-06T03:47:50.015Z info: Server running on port 5001
+2025-04-06T03:48:20.017Z error: Error: getaddrinfo ENOTFOUND mongo
+2025-04-06T03:48:39.305Z info: Server running on port 5001
+2025-04-06T03:49:09.307Z error: Error: getaddrinfo ENOTFOUND mongo
+2025-04-06T03:50:53.505Z info: Server running on port 5001
+2025-04-06T03:50:53.517Z info: MongoDB connected: mongo
+2025-04-06T03:51:37.704Z info: Server running on port 5001
+2025-04-06T03:52:07.706Z error: Error: getaddrinfo ENOTFOUND mongo
+2025-04-06T03:56:18.699Z info: Server running on port 5001
+2025-04-06T03:56:18.714Z info: MongoDB connected: localhost
