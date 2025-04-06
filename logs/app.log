@@ -4947,3 +4947,601 @@
 2025-04-06T05:28:53.457Z info: Server running on port 5001
 2025-04-06T05:28:53.471Z info: MongoDB connected: localhost
 2025-04-06T05:28:53.986Z info: WebSocket connection established with ID: jGmDBd93h9EreNjWAAac
+2025-04-06T08:18:36.689Z info: Server running on port 5001
+2025-04-06T08:18:36.707Z info: MongoDB connected: localhost
+2025-04-06T08:18:36.788Z info: WebSocket connection established with ID: Dlq1UDWQ4kxUr6mmAAag
+2025-04-06T08:18:59.008Z info: Server running on port 5001
+2025-04-06T08:18:59.022Z info: MongoDB connected: localhost
+2025-04-06T08:18:59.104Z info: WebSocket connection established with ID: SP_nng0NEXhi-WxGAAai
+2025-04-06T08:29:02.631Z info: Server running on port 5001
+2025-04-06T08:29:02.650Z info: MongoDB connected: localhost
+2025-04-06T08:29:02.739Z info: WebSocket connection established with ID: 7hU-fKxLuAWbq2RcAAak
+2025-04-06T08:29:07.416Z info: Server running on port 5001
+2025-04-06T08:29:07.430Z info: MongoDB connected: localhost
+2025-04-06T08:29:07.508Z info: WebSocket connection established with ID: MaCaQhWZD0jsz0t8AAam
+2025-04-06T08:29:12.482Z info: Server running on port 5001
+2025-04-06T08:29:12.495Z info: MongoDB connected: localhost
+2025-04-06T08:29:12.748Z info: Server running on port 5001
+2025-04-06T08:29:12.764Z info: MongoDB connected: localhost
+2025-04-06T08:29:12.947Z info: Server running on port 5001
+2025-04-06T08:29:12.960Z info: MongoDB connected: localhost
+2025-04-06T08:29:13.043Z info: WebSocket connection established with ID: 81G_DahucGeAwyQVAAaq
+2025-04-06T08:29:17.262Z info: Server running on port 5001
+2025-04-06T08:29:17.277Z info: MongoDB connected: localhost
+2025-04-06T08:29:17.357Z info: WebSocket connection established with ID: -JiLAkdI2RAdlpgMAAas
+2025-04-06T08:29:39.484Z info: Server running on port 5001
+2025-04-06T08:29:39.499Z info: MongoDB connected: localhost
+2025-04-06T08:29:39.575Z info: WebSocket connection established with ID: QPMY7hxLlS-8sY5LAAau
+2025-04-06T08:29:41.020Z info: Server running on port 5001
+2025-04-06T08:29:41.035Z info: MongoDB connected: localhost
+2025-04-06T08:29:41.112Z info: WebSocket connection established with ID: u2KwgCOBy6HXzQAyAAaw
+2025-04-06T08:29:46.275Z info: Server running on port 5001
+2025-04-06T08:29:46.289Z info: MongoDB connected: localhost
+2025-04-06T08:29:46.575Z info: Server running on port 5001
+2025-04-06T08:29:46.594Z info: MongoDB connected: localhost
+2025-04-06T08:29:46.668Z info: WebSocket connection established with ID: L9plD6kWRvjYIyQPAAay
+2025-04-06T08:29:53.871Z info: Server running on port 5001
+2025-04-06T08:29:53.885Z info: MongoDB connected: localhost
+2025-04-06T08:29:53.964Z info: WebSocket connection established with ID: fQmRvMYEpJJsDRpwAAa0
+2025-04-06T08:29:59.364Z info: Server running on port 5001
+2025-04-06T08:29:59.379Z info: MongoDB connected: localhost
+2025-04-06T08:29:59.570Z info: Server running on port 5001
+2025-04-06T08:29:59.583Z info: MongoDB connected: localhost
+2025-04-06T08:29:59.671Z info: WebSocket connection established with ID: NC25uSGNGjr9PxAEAAa2
+2025-04-06T08:30:01.823Z info: Server running on port 5001
+2025-04-06T08:30:01.837Z info: MongoDB connected: localhost
+2025-04-06T08:30:01.933Z info: WebSocket connection established with ID: a-JPXa7wiHk1bKETAAa4
+2025-04-06T08:30:19.884Z info: Server running on port 5001
+2025-04-06T08:30:19.898Z info: MongoDB connected: localhost
+2025-04-06T08:30:19.977Z info: WebSocket connection established with ID: C3wDK5uwPn5Y8CZ6AAa6
+2025-04-06T08:30:23.677Z info: Server running on port 5001
+2025-04-06T08:30:23.691Z info: MongoDB connected: localhost
+2025-04-06T08:30:23.772Z info: WebSocket connection established with ID: mQh2bdoVGtXYrmK2AAa8
+2025-04-06T08:30:31.311Z info: Server running on port 5001
+2025-04-06T08:30:31.326Z info: MongoDB connected: localhost
+2025-04-06T08:30:31.408Z info: WebSocket connection established with ID: u-5qh5Q-kszxesH4AAa-
+2025-04-06T08:31:00.677Z info: Server running on port 5001
+2025-04-06T08:31:00.694Z info: MongoDB connected: localhost
+2025-04-06T08:31:00.772Z info: WebSocket connection established with ID: zmVAx5-UUvQ-W6OdAAbA
+2025-04-06T08:31:02.628Z info: Server running on port 5001
+2025-04-06T08:31:02.641Z info: MongoDB connected: localhost
+2025-04-06T08:31:02.721Z info: WebSocket connection established with ID: cJJVxsh6GXvBU6tZAAbC
+2025-04-06T08:31:05.235Z info: Server running on port 5001
+2025-04-06T08:31:05.250Z info: MongoDB connected: localhost
+2025-04-06T08:31:05.327Z info: WebSocket connection established with ID: 5AyK84KTDbB9uG3YAAbE
+2025-04-06T08:31:05.671Z info: Server running on port 5001
+2025-04-06T08:31:05.685Z info: MongoDB connected: localhost
+2025-04-06T08:31:05.767Z info: WebSocket connection established with ID: nVU5WNKckW2VRh8EAAbG
+2025-04-06T08:31:13.290Z info: Server running on port 5001
+2025-04-06T08:31:13.304Z info: MongoDB connected: localhost
+2025-04-06T08:31:13.384Z info: WebSocket connection established with ID: ZK7rkzg1UFC2VUOTAAbI
+2025-04-06T08:31:24.405Z info: Server running on port 5001
+2025-04-06T08:31:24.418Z info: MongoDB connected: localhost
+2025-04-06T08:31:24.497Z info: WebSocket connection established with ID: qzTgUEzpQylkuS_6AAbK
+2025-04-06T08:31:31.668Z info: Server running on port 5001
+2025-04-06T08:31:31.682Z info: MongoDB connected: localhost
+2025-04-06T08:31:31.768Z info: WebSocket connection established with ID: kgl0yGRHpMbdec2IAAbM
+2025-04-06T08:31:33.452Z info: Server running on port 5001
+2025-04-06T08:31:33.466Z info: MongoDB connected: localhost
+2025-04-06T08:31:33.546Z info: WebSocket connection established with ID: cdG2xFfPS4FeQ2fCAAbO
+2025-04-06T08:31:35.651Z info: Server running on port 5001
+2025-04-06T08:31:35.666Z info: MongoDB connected: localhost
+2025-04-06T08:31:35.744Z info: WebSocket connection established with ID: pQdoZ-Cjxe9gerEIAAbQ
+2025-04-06T08:31:35.986Z info: Server running on port 5001
+2025-04-06T08:31:36.001Z info: MongoDB connected: localhost
+2025-04-06T08:31:36.080Z info: WebSocket connection established with ID: FUlYHBnfyo6mLTRjAAbS
+2025-04-06T08:31:43.553Z info: Server running on port 5001
+2025-04-06T08:31:43.572Z info: MongoDB connected: localhost
+2025-04-06T08:31:43.664Z info: WebSocket connection established with ID: kLDOspZw2LswcykbAAbU
+2025-04-06T08:31:52.809Z info: Server running on port 5001
+2025-04-06T08:31:52.824Z info: MongoDB connected: localhost
+2025-04-06T08:31:52.909Z info: WebSocket connection established with ID: 5VyFMrVkzMdGyvQvAAbW
+2025-04-06T08:31:55.103Z info: Server running on port 5001
+2025-04-06T08:31:55.117Z info: MongoDB connected: localhost
+2025-04-06T08:31:55.196Z info: WebSocket connection established with ID: AZTRBPRUDZO-cOUAAAbY
+2025-04-06T08:31:59.381Z info: Server running on port 5001
+2025-04-06T08:31:59.397Z info: MongoDB connected: localhost
+2025-04-06T08:31:59.484Z info: WebSocket connection established with ID: 6dsaBm2Mef63zQ3QAAba
+2025-04-06T08:32:03.843Z info: Server running on port 5001
+2025-04-06T08:32:03.858Z info: MongoDB connected: localhost
+2025-04-06T08:32:03.940Z info: WebSocket connection established with ID: 9lVuIacqv_BVFSG5AAbc
+2025-04-06T08:32:10.228Z info: Server running on port 5001
+2025-04-06T08:32:10.241Z info: MongoDB connected: localhost
+2025-04-06T08:32:10.323Z info: WebSocket connection established with ID: iqgx2l3OD1mQDxwiAAbe
+2025-04-06T08:32:12.980Z info: Server running on port 5001
+2025-04-06T08:32:12.998Z info: MongoDB connected: localhost
+2025-04-06T08:32:13.079Z info: WebSocket connection established with ID: 6chQHqr9SMWu5hNGAAbg
+2025-04-06T08:32:15.387Z info: Server running on port 5001
+2025-04-06T08:32:15.403Z info: MongoDB connected: localhost
+2025-04-06T08:32:15.492Z info: WebSocket connection established with ID: RH3zHeFHmf5n-VbwAAbi
+2025-04-06T08:32:18.162Z info: Server running on port 5001
+2025-04-06T08:32:18.177Z info: MongoDB connected: localhost
+2025-04-06T08:32:18.372Z info: Server running on port 5001
+2025-04-06T08:32:18.388Z info: MongoDB connected: localhost
+2025-04-06T08:32:18.467Z info: WebSocket connection established with ID: MckKCWY0N8CVG6YoAAbl
+2025-04-06T08:32:18.907Z info: Server running on port 5001
+2025-04-06T08:32:18.924Z info: MongoDB connected: localhost
+2025-04-06T08:32:19.003Z info: WebSocket connection established with ID: XuI3t3L3P4p43GTFAAbn
+2025-04-06T08:32:19.492Z info: Server running on port 5001
+2025-04-06T08:32:19.507Z info: MongoDB connected: localhost
+2025-04-06T08:32:19.591Z info: WebSocket connection established with ID: 3DFRSodKLyEloMR0AAbp
+2025-04-06T08:32:19.911Z info: Server running on port 5001
+2025-04-06T08:32:19.925Z info: MongoDB connected: localhost
+2025-04-06T08:32:20.014Z info: WebSocket connection established with ID: ZiCj8GY5eBkem84bAAbr
+2025-04-06T08:32:23.206Z info: Server running on port 5001
+2025-04-06T08:32:23.221Z info: MongoDB connected: localhost
+2025-04-06T08:32:23.300Z info: WebSocket connection established with ID: jrKwC30QYYTXSl15AAbt
+2025-04-06T08:32:30.390Z info: Server running on port 5001
+2025-04-06T08:32:30.403Z info: MongoDB connected: localhost
+2025-04-06T08:32:30.482Z info: WebSocket connection established with ID: qK45dzKkXXxkO5OBAAbv
+2025-04-06T08:32:32.742Z info: Server running on port 5001
+2025-04-06T08:32:32.755Z info: MongoDB connected: localhost
+2025-04-06T08:32:32.833Z info: WebSocket connection established with ID: Rch-Hxs9IlP0b7lGAAbx
+2025-04-06T08:32:34.977Z info: Server running on port 5001
+2025-04-06T08:32:34.991Z info: MongoDB connected: localhost
+2025-04-06T08:32:35.073Z info: WebSocket connection established with ID: cKCpuTIyAoEz0R_4AAbz
+2025-04-06T08:32:35.372Z info: Server running on port 5001
+2025-04-06T08:32:35.386Z info: MongoDB connected: localhost
+2025-04-06T08:32:35.659Z info: Server running on port 5001
+2025-04-06T08:32:35.673Z info: MongoDB connected: localhost
+2025-04-06T08:32:35.755Z info: WebSocket connection established with ID: g02iZNoENPzUQfeFAAb1
+2025-04-06T08:32:43.328Z info: Server running on port 5001
+2025-04-06T08:32:43.347Z info: MongoDB connected: localhost
+2025-04-06T08:32:43.464Z info: WebSocket connection established with ID: ll5w-tVUpBfTO0bGAAb3
+2025-04-06T08:32:46.035Z info: Server running on port 5001
+2025-04-06T08:32:46.051Z info: MongoDB connected: localhost
+2025-04-06T08:32:46.244Z info: Server running on port 5001
+2025-04-06T08:32:46.261Z info: MongoDB connected: localhost
+2025-04-06T08:32:46.338Z info: WebSocket connection established with ID: cbGeF6rsrw7Dgzc0AAb5
+2025-04-06T08:33:01.941Z info: Server running on port 5001
+2025-04-06T08:33:01.957Z info: MongoDB connected: localhost
+2025-04-06T08:33:02.032Z info: WebSocket connection established with ID: BXs1-OOoBKlhwH-IAAb7
+2025-04-06T08:33:02.858Z info: Server running on port 5001
+2025-04-06T08:33:02.871Z info: MongoDB connected: localhost
+2025-04-06T08:33:02.951Z info: WebSocket connection established with ID: zvPcqO10jDjZu7f-AAb9
+2025-04-06T08:33:04.836Z info: Server running on port 5001
+2025-04-06T08:33:04.850Z info: MongoDB connected: localhost
+2025-04-06T08:33:05.006Z info: WebSocket connection established with ID: jgskaz3anNEAclkJAAb_
+2025-04-06T08:43:13.043Z info: Server running on port 5001
+2025-04-06T08:43:13.057Z info: MongoDB connected: localhost
+2025-04-06T08:43:13.141Z info: WebSocket connection established with ID: 2Q7LgiY61riaSOe5AAcB
+2025-04-06T08:43:13.378Z info: Server running on port 5001
+2025-04-06T08:43:13.391Z info: MongoDB connected: localhost
+2025-04-06T08:43:13.481Z info: WebSocket connection established with ID: nTd8yRCDUwE_qKecAAcD
+2025-04-06T08:44:18.481Z info: Server running on port 5001
+2025-04-06T08:44:18.494Z info: MongoDB connected: localhost
+2025-04-06T08:44:18.572Z info: WebSocket connection established with ID: LnpYb1S3LJY1GXjeAAcF
+2025-04-06T09:21:50.278Z info: Server running on port 5001
+2025-04-06T09:21:50.295Z info: MongoDB connected: localhost
+2025-04-06T09:21:50.374Z info: WebSocket connection established with ID: 4leU_bX6KS4A3ZCHAAcH
+2025-04-06T09:22:44.963Z info: Server running on port 5001
+2025-04-06T09:22:44.977Z info: MongoDB connected: localhost
+2025-04-06T09:22:45.059Z info: WebSocket connection established with ID: 7b9SdrbJj_kyL6SYAAcJ
+2025-04-06T09:23:20.270Z info: Server running on port 5001
+2025-04-06T09:23:20.284Z info: MongoDB connected: localhost
+2025-04-06T09:23:20.372Z info: WebSocket connection established with ID: Oc3UXP3pMWRuMCODAAcL
+2025-04-06T09:23:20.613Z info: Server running on port 5001
+2025-04-06T09:23:20.628Z info: MongoDB connected: localhost
+2025-04-06T09:23:20.711Z info: WebSocket connection established with ID: p_XRlt1wq1mHKhQzAAcN
+2025-04-06T09:23:22.571Z info: Server running on port 5001
+2025-04-06T09:23:22.584Z info: MongoDB connected: localhost
+2025-04-06T09:23:22.755Z info: WebSocket connection established with ID: 0ufbpnRCFJu_j1QtAAcP
+2025-04-06T09:28:15.262Z info: Server running on port 5001
+2025-04-06T09:28:15.279Z info: MongoDB connected: localhost
+2025-04-06T09:28:15.363Z info: WebSocket connection established with ID: ogvWWc4bLCuisb89AAcR
+2025-04-06T12:30:58.279Z info: Server running on port 5001
+2025-04-06T12:30:58.294Z info: MongoDB connected: localhost
+2025-04-06T12:30:58.543Z info: WebSocket connection established with ID: gG0WDnLZudUX3RIAAAcT
+2025-04-06T13:12:16.066Z info: Server running on port 5001
+2025-04-06T13:12:16.081Z info: MongoDB connected: localhost
+2025-04-06T13:12:16.162Z info: WebSocket connection established with ID: NmH-jvZ8tJ30XJ3LAAcZ
+2025-04-06T13:12:23.339Z info: Server running on port 5001
+2025-04-06T13:12:23.354Z info: MongoDB connected: localhost
+2025-04-06T13:12:23.530Z info: Server running on port 5001
+2025-04-06T13:12:23.543Z info: MongoDB connected: localhost
+2025-04-06T13:12:23.626Z info: WebSocket connection established with ID: 4stdRVtXAQdc2_GpAAcb
+2025-04-06T13:12:24.933Z info: Server running on port 5001
+2025-04-06T13:12:24.947Z info: MongoDB connected: localhost
+2025-04-06T13:12:25.027Z info: WebSocket connection established with ID: xf2Gu803cOdL1V6NAAcd
+2025-04-06T13:14:20.463Z info: Server running on port 5001
+2025-04-06T13:14:20.478Z info: MongoDB connected: localhost
+2025-04-06T13:14:20.561Z info: WebSocket connection established with ID: sXr6NgKmaaVhy1g2AAcf
+2025-04-06T15:03:30.811Z info: Server running on port 5001
+2025-04-06T15:03:30.830Z info: MongoDB connected: localhost
+2025-04-06T15:03:30.912Z info: WebSocket connection established with ID: YTtu5O4HkCwkGZ3bAAch
+2025-04-06T15:03:37.519Z info: Server running on port 5001
+2025-04-06T15:03:37.533Z info: MongoDB connected: localhost
+2025-04-06T15:03:37.624Z info: WebSocket connection established with ID: _uxOCSqzg7O9fYRVAAcj
+2025-04-06T15:03:37.791Z info: Server running on port 5001
+2025-04-06T15:03:37.806Z info: MongoDB connected: localhost
+2025-04-06T15:03:38.039Z info: Server running on port 5001
+2025-04-06T15:03:38.052Z info: MongoDB connected: localhost
+2025-04-06T15:03:38.131Z info: WebSocket connection established with ID: aRmKmZHx4suC0dMUAAcn
+2025-04-06T15:03:45.773Z info: Server running on port 5001
+2025-04-06T15:03:45.787Z info: MongoDB connected: localhost
+2025-04-06T15:03:45.871Z info: WebSocket connection established with ID: XouGRoNF6eAg6yOLAAcp
+2025-04-06T15:03:54.053Z info: Server running on port 5001
+2025-04-06T15:03:54.068Z info: MongoDB connected: localhost
+2025-04-06T15:03:54.148Z info: WebSocket connection established with ID: p7derZxmDHfaOnViAAcr
+2025-04-06T15:04:05.031Z info: Server running on port 5001
+2025-04-06T15:04:05.048Z info: MongoDB connected: localhost
+2025-04-06T15:04:05.127Z info: WebSocket connection established with ID: Qbx9NVvbBRBaxb4PAAct
+2025-04-06T15:04:15.747Z info: Server running on port 5001
+2025-04-06T15:04:15.762Z info: MongoDB connected: localhost
+2025-04-06T15:04:15.866Z info: WebSocket connection established with ID: hcY1feJrXH0pv-ycAAcv
+2025-04-06T15:04:30.765Z info: Server running on port 5001
+2025-04-06T15:04:30.779Z info: MongoDB connected: localhost
+2025-04-06T15:04:30.867Z info: WebSocket connection established with ID: qamukWj3sykaunFJAAcx
+2025-04-06T15:05:00.527Z info: Server running on port 5001
+2025-04-06T15:05:00.542Z info: MongoDB connected: localhost
+2025-04-06T15:05:00.631Z info: WebSocket connection established with ID: brOG6cbgYyymBl4NAAcz
+2025-04-06T15:05:02.692Z info: Server running on port 5001
+2025-04-06T15:05:02.707Z info: MongoDB connected: localhost
+2025-04-06T15:05:02.821Z info: WebSocket connection established with ID: k1TKDzykuiW2t4eLAAc1
+2025-04-06T15:05:09.444Z info: Server running on port 5001
+2025-04-06T15:05:09.458Z info: MongoDB connected: localhost
+2025-04-06T15:05:09.643Z info: Server running on port 5001
+2025-04-06T15:05:09.656Z info: MongoDB connected: localhost
+2025-04-06T15:05:09.850Z info: Server running on port 5001
+2025-04-06T15:05:09.862Z info: MongoDB connected: localhost
+2025-04-06T15:05:09.944Z info: WebSocket connection established with ID: HhcYKH9p5yJqXNgNAAc4
+2025-04-06T15:05:53.049Z info: Server running on port 5001
+2025-04-06T15:05:53.063Z info: MongoDB connected: localhost
+2025-04-06T15:05:53.140Z info: WebSocket connection established with ID: nwBsjdmxNYXkCbKIAAc6
+2025-04-06T15:07:57.200Z info: Server running on port 5001
+2025-04-06T15:07:57.215Z info: MongoDB connected: localhost
+2025-04-06T15:07:57.296Z info: WebSocket connection established with ID: QHwDEEoXtTXi2eM9AAc8
+2025-04-06T16:08:02.323Z info: Server running on port 5001
+2025-04-06T16:08:02.340Z info: MongoDB connected: localhost
+2025-04-06T16:08:02.424Z info: WebSocket connection established with ID: fG0xHZp_OSg0wpB7AAc-
+2025-04-06T16:08:05.223Z info: Server running on port 5001
+2025-04-06T16:08:05.236Z info: MongoDB connected: localhost
+2025-04-06T16:08:05.427Z info: Server running on port 5001
+2025-04-06T16:08:05.441Z info: MongoDB connected: localhost
+2025-04-06T16:08:05.628Z info: Server running on port 5001
+2025-04-06T16:08:05.641Z info: MongoDB connected: localhost
+2025-04-06T16:08:05.832Z info: Server running on port 5001
+2025-04-06T16:08:05.845Z info: MongoDB connected: localhost
+2025-04-06T16:08:06.028Z info: Server running on port 5001
+2025-04-06T16:08:06.042Z info: MongoDB connected: localhost
+2025-04-06T16:08:06.325Z info: Server running on port 5001
+2025-04-06T16:08:06.340Z info: MongoDB connected: localhost
+2025-04-06T16:08:06.514Z info: Server running on port 5001
+2025-04-06T16:08:06.527Z info: MongoDB connected: localhost
+2025-04-06T16:08:06.606Z info: WebSocket connection established with ID: Ic9sh_FOMmI08QXmAAdA
+2025-04-06T16:08:43.514Z info: Server running on port 5001
+2025-04-06T16:08:43.527Z info: MongoDB connected: localhost
+2025-04-06T16:08:43.606Z info: WebSocket connection established with ID: MxxOnVpqcODtMeSuAAdC
+2025-04-06T16:12:17.919Z info: Server running on port 5001
+2025-04-06T16:12:17.933Z info: MongoDB connected: localhost
+2025-04-06T16:12:18.025Z info: WebSocket connection established with ID: ZOGB0Jj8qjciigdnAAdE
+2025-04-06T16:12:23.561Z info: Server running on port 5001
+2025-04-06T16:12:23.576Z info: MongoDB connected: localhost
+2025-04-06T16:12:23.656Z info: WebSocket connection established with ID: eNLbRiwTvTQTxwStAAdG
+2025-04-06T16:13:33.248Z info: Server running on port 5001
+2025-04-06T16:13:33.262Z info: MongoDB connected: localhost
+2025-04-06T16:13:35.636Z info: Server running on port 5001
+2025-04-06T16:13:35.652Z info: MongoDB connected: localhost
+2025-04-06T16:13:36.861Z info: WebSocket connection established with ID: mZZvoa6l0xPhqS_dAAdI
+2025-04-06T16:13:39.108Z info: Server running on port 5001
+2025-04-06T16:13:39.123Z info: MongoDB connected: localhost
+2025-04-06T16:13:39.201Z info: WebSocket connection established with ID: _gFeOp9XxfAQ8vG8AAdK
+2025-04-06T16:13:39.453Z info: Server running on port 5001
+2025-04-06T16:13:39.467Z info: MongoDB connected: localhost
+2025-04-06T16:13:39.625Z info: WebSocket connection established with ID: sDgTylmFvh1MB-lAAAdM
+2025-04-06T16:13:48.023Z info: Server running on port 5001
+2025-04-06T16:13:48.216Z info: Server running on port 5001
+2025-04-06T16:13:48.230Z info: MongoDB connected: localhost
+2025-04-06T16:13:48.311Z info: WebSocket connection established with ID: yB9OyXlEphESX5BOAAdO
+2025-04-06T16:14:07.536Z info: Server running on port 5001
+2025-04-06T16:14:07.550Z info: MongoDB connected: localhost
+2025-04-06T16:14:07.633Z info: WebSocket connection established with ID: zdGnFJNGNpIw3alyAAdQ
+2025-04-06T16:14:10.559Z info: Server running on port 5001
+2025-04-06T16:14:10.573Z info: MongoDB connected: localhost
+2025-04-06T16:14:10.688Z info: WebSocket connection established with ID: y3kZuUf3lQBuYykYAAdS
+2025-04-06T16:14:12.263Z info: Server running on port 5001
+2025-04-06T16:14:12.277Z info: MongoDB connected: localhost
+2025-04-06T16:14:12.457Z info: Server running on port 5001
+2025-04-06T16:14:12.473Z info: MongoDB connected: localhost
+2025-04-06T16:14:12.559Z info: WebSocket connection established with ID: nM_UxLMpUrZdkbWZAAdU
+2025-04-06T16:14:15.483Z info: Server running on port 5001
+2025-04-06T16:14:15.497Z info: MongoDB connected: localhost
+2025-04-06T16:14:15.578Z info: WebSocket connection established with ID: 52mPCna1odvgMPUQAAdW
+2025-04-06T16:14:19.443Z info: Server running on port 5001
+2025-04-06T16:14:19.463Z info: MongoDB connected: localhost
+2025-04-06T16:14:19.560Z info: WebSocket connection established with ID: vkUE7TN9B6xcqbcDAAdY
+2025-04-06T16:14:20.857Z info: Server running on port 5001
+2025-04-06T16:14:20.871Z info: MongoDB connected: localhost
+2025-04-06T16:14:21.061Z info: Server running on port 5001
+2025-04-06T16:14:21.075Z info: MongoDB connected: localhost
+2025-04-06T16:14:21.155Z info: WebSocket connection established with ID: 7XAVArm1T8uxbuzVAAda
+2025-04-06T16:14:26.128Z info: Server running on port 5001
+2025-04-06T16:14:26.142Z info: MongoDB connected: localhost
+2025-04-06T16:14:26.219Z info: WebSocket connection established with ID: jQKkCrmnyPhzWmEnAAdc
+2025-04-06T16:14:27.749Z info: Server running on port 5001
+2025-04-06T16:14:27.763Z info: MongoDB connected: localhost
+2025-04-06T16:14:27.843Z info: WebSocket connection established with ID: e0817JQA5RX90U4nAAde
+2025-04-06T16:14:32.426Z info: Server running on port 5001
+2025-04-06T16:14:32.441Z info: MongoDB connected: localhost
+2025-04-06T16:14:32.520Z info: WebSocket connection established with ID: XMIiXOoWOPAemSs8AAdg
+2025-04-06T16:14:35.768Z info: Server running on port 5001
+2025-04-06T16:14:35.782Z info: MongoDB connected: localhost
+2025-04-06T16:14:35.966Z info: Server running on port 5001
+2025-04-06T16:14:35.981Z info: MongoDB connected: localhost
+2025-04-06T16:14:36.082Z info: WebSocket connection established with ID: GDEYoAKm0cvHb7ouAAdi
+2025-04-06T16:14:36.761Z info: Server running on port 5001
+2025-04-06T16:14:36.774Z info: MongoDB connected: localhost
+2025-04-06T16:14:36.963Z info: Server running on port 5001
+2025-04-06T16:14:36.979Z info: MongoDB connected: localhost
+2025-04-06T16:14:37.056Z info: WebSocket connection established with ID: uUpjLsIYbNPZUMK4AAdk
+2025-04-06T16:14:44.584Z info: Server running on port 5001
+2025-04-06T16:14:44.597Z info: MongoDB connected: localhost
+2025-04-06T16:14:44.786Z info: Server running on port 5001
+2025-04-06T16:14:44.801Z info: MongoDB connected: localhost
+2025-04-06T16:14:44.985Z info: Server running on port 5001
+2025-04-06T16:14:44.998Z info: MongoDB connected: localhost
+2025-04-06T16:14:45.098Z info: WebSocket connection established with ID: EBPsnLtJNSDA-lDtAAdm
+2025-04-06T16:15:06.552Z info: Server running on port 5001
+2025-04-06T16:15:06.567Z info: MongoDB connected: localhost
+2025-04-06T16:15:06.650Z info: WebSocket connection established with ID: R0aq8tGp_D9UIAJhAAdo
+2025-04-06T16:15:07.783Z info: Server running on port 5001
+2025-04-06T16:15:07.798Z info: MongoDB connected: localhost
+2025-04-06T16:15:07.887Z info: WebSocket connection established with ID: WkzdR0GbThjPU4L0AAdq
+2025-04-06T16:15:11.471Z info: Server running on port 5001
+2025-04-06T16:15:11.485Z info: MongoDB connected: localhost
+2025-04-06T16:15:11.569Z info: WebSocket connection established with ID: DJaTDerxkf0_FUbmAAds
+2025-04-06T16:15:42.404Z info: Server running on port 5001
+2025-04-06T16:15:42.419Z info: MongoDB connected: localhost
+2025-04-06T16:15:42.513Z info: WebSocket connection established with ID: QGF038kC2yH6ur3UAAdu
+2025-04-06T16:15:48.174Z info: Server running on port 5001
+2025-04-06T16:15:48.189Z info: MongoDB connected: localhost
+2025-04-06T16:15:48.373Z info: Server running on port 5001
+2025-04-06T16:15:48.388Z info: MongoDB connected: localhost
+2025-04-06T16:15:48.469Z info: WebSocket connection established with ID: dkszVvwbpYHjel6tAAdw
+2025-04-06T16:15:50.004Z info: Server running on port 5001
+2025-04-06T16:15:50.018Z info: MongoDB connected: localhost
+2025-04-06T16:15:50.198Z info: Server running on port 5001
+2025-04-06T16:15:50.212Z info: MongoDB connected: localhost
+2025-04-06T16:15:50.296Z info: WebSocket connection established with ID: ngWlalkY3W004BFCAAdy
+2025-04-06T16:16:01.469Z info: Server running on port 5001
+2025-04-06T16:16:01.484Z info: MongoDB connected: localhost
+2025-04-06T16:16:01.565Z info: WebSocket connection established with ID: xIfc2b3A5RzaJ8_bAAd0
+2025-04-06T16:16:05.114Z info: Server running on port 5001
+2025-04-06T16:16:05.128Z info: MongoDB connected: localhost
+2025-04-06T16:16:05.212Z info: WebSocket connection established with ID: NHnUCL_IORIi8GJ8AAd2
+2025-04-06T16:16:07.427Z info: Server running on port 5001
+2025-04-06T16:16:07.441Z info: MongoDB connected: localhost
+2025-04-06T16:16:07.630Z info: Server running on port 5001
+2025-04-06T16:16:07.644Z info: MongoDB connected: localhost
+2025-04-06T16:16:07.720Z info: WebSocket connection established with ID: ub1Szas3QPaiSgOgAAd4
+2025-04-06T16:16:08.463Z info: Server running on port 5001
+2025-04-06T16:16:08.477Z info: MongoDB connected: localhost
+2025-04-06T16:16:08.569Z info: WebSocket connection established with ID: 4ONKv37l4IuUMs1RAAd6
+2025-04-06T16:16:12.270Z info: Server running on port 5001
+2025-04-06T16:16:12.284Z info: MongoDB connected: localhost
+2025-04-06T16:16:12.471Z info: Server running on port 5001
+2025-04-06T16:16:12.494Z info: MongoDB connected: localhost
+2025-04-06T16:16:12.566Z info: WebSocket connection established with ID: CvsQfOmdJUY3Pl-FAAd8
+2025-04-06T16:16:13.275Z info: Server running on port 5001
+2025-04-06T16:16:13.289Z info: MongoDB connected: localhost
+2025-04-06T16:16:13.475Z info: Server running on port 5001
+2025-04-06T16:16:13.488Z info: MongoDB connected: localhost
+2025-04-06T16:16:13.587Z info: WebSocket connection established with ID: NYafaOoF5UG38ZQKAAd-
+2025-04-06T16:16:45.571Z info: Server running on port 5001
+2025-04-06T16:16:45.587Z info: MongoDB connected: localhost
+2025-04-06T16:16:45.665Z info: WebSocket connection established with ID: NTB_MVO24pVPD0YLAAeA
+2025-04-06T16:16:50.628Z info: Server running on port 5001
+2025-04-06T16:16:50.642Z info: MongoDB connected: localhost
+2025-04-06T16:16:50.721Z info: WebSocket connection established with ID: NBMSdTeVeRlK0_Z2AAeC
+2025-04-06T16:16:54.561Z info: Server running on port 5001
+2025-04-06T16:16:54.576Z info: MongoDB connected: localhost
+2025-04-06T16:16:54.763Z info: Server running on port 5001
+2025-04-06T16:16:54.778Z info: MongoDB connected: localhost
+2025-04-06T16:16:54.857Z info: WebSocket connection established with ID: EVq5CFeoe-lFbqjEAAeE
+2025-04-06T16:16:58.132Z info: Server running on port 5001
+2025-04-06T16:16:58.146Z info: MongoDB connected: localhost
+2025-04-06T16:16:58.233Z info: WebSocket connection established with ID: E1m3aRTuUkz1dl8QAAeG
+2025-04-06T16:16:58.753Z info: Server running on port 5001
+2025-04-06T16:16:58.767Z info: MongoDB connected: localhost
+2025-04-06T16:16:58.964Z info: Server running on port 5001
+2025-04-06T16:16:58.977Z info: MongoDB connected: localhost
+2025-04-06T16:16:59.067Z info: WebSocket connection established with ID: PoRQ3Gw8UnpSUxw2AAeJ
+2025-04-06T16:17:11.103Z info: Server running on port 5001
+2025-04-06T16:17:11.118Z info: MongoDB connected: localhost
+2025-04-06T16:17:11.643Z info: Server running on port 5001
+2025-04-06T16:17:11.657Z info: MongoDB connected: localhost
+2025-04-06T16:17:11.751Z info: WebSocket connection established with ID: H-8kJJSfKTkpYEd-AAeL
+2025-04-06T16:17:22.832Z info: Server running on port 5001
+2025-04-06T16:17:22.847Z info: MongoDB connected: localhost
+2025-04-06T16:17:23.048Z info: Server running on port 5001
+2025-04-06T16:17:23.061Z info: MongoDB connected: localhost
+2025-04-06T16:17:23.165Z info: WebSocket connection established with ID: ksGVvuM1ZHGgeBuaAAeO
+2025-04-06T16:17:27.734Z info: Server running on port 5001
+2025-04-06T16:17:27.748Z info: MongoDB connected: localhost
+2025-04-06T16:17:27.968Z info: Server running on port 5001
+2025-04-06T16:17:27.981Z info: MongoDB connected: localhost
+2025-04-06T16:17:28.068Z info: WebSocket connection established with ID: EjwOBMrVWWeiwxxgAAeR
+2025-04-06T16:17:30.488Z info: Server running on port 5001
+2025-04-06T16:17:30.502Z info: MongoDB connected: localhost
+2025-04-06T16:17:30.686Z info: Server running on port 5001
+2025-04-06T16:17:30.702Z info: MongoDB connected: localhost
+2025-04-06T16:17:30.884Z info: WebSocket connection established with ID: 3x-9wb6InT3AaK7aAAeT
+2025-04-06T16:17:34.772Z info: Server running on port 5001
+2025-04-06T16:17:34.787Z info: MongoDB connected: localhost
+2025-04-06T16:17:35.008Z info: Server running on port 5001
+2025-04-06T16:17:35.023Z info: MongoDB connected: localhost
+2025-04-06T16:17:35.211Z info: Server running on port 5001
+2025-04-06T16:17:35.225Z info: MongoDB connected: localhost
+2025-04-06T16:17:35.314Z info: WebSocket connection established with ID: cZo0kFfZpIiNdGe1AAeX
+2025-04-06T16:17:42.635Z info: Server running on port 5001
+2025-04-06T16:17:42.654Z info: MongoDB connected: localhost
+2025-04-06T16:17:42.732Z info: WebSocket connection established with ID: Hflz0PxHNbMDJDr6AAeZ
+2025-04-06T16:17:48.116Z info: Server running on port 5001
+2025-04-06T16:17:48.131Z info: MongoDB connected: localhost
+2025-04-06T16:17:48.315Z info: Server running on port 5001
+2025-04-06T16:17:48.331Z info: MongoDB connected: localhost
+2025-04-06T16:17:48.510Z info: Server running on port 5001
+2025-04-06T16:17:48.523Z info: MongoDB connected: localhost
+2025-04-06T16:17:48.613Z info: WebSocket connection established with ID: m4gUAz0Hygz17Cd1AAeb
+2025-04-06T16:17:50.179Z info: Server running on port 5001
+2025-04-06T16:17:50.193Z info: MongoDB connected: localhost
+2025-04-06T16:17:50.271Z info: WebSocket connection established with ID: Tae2hZSRiq52XfEdAAed
+2025-04-06T16:17:54.421Z info: Server running on port 5001
+2025-04-06T16:17:54.434Z info: MongoDB connected: localhost
+2025-04-06T16:17:54.514Z info: WebSocket connection established with ID: qYsTOClvSD0Y1XBnAAef
+2025-04-06T16:17:58.917Z info: Server running on port 5001
+2025-04-06T16:17:58.931Z info: MongoDB connected: localhost
+2025-04-06T16:17:59.117Z info: Server running on port 5001
+2025-04-06T16:17:59.131Z info: MongoDB connected: localhost
+2025-04-06T16:17:59.211Z info: WebSocket connection established with ID: qmPDjRn7t_drEiVSAAeh
+2025-04-06T16:18:02.262Z info: Server running on port 5001
+2025-04-06T16:18:02.275Z info: MongoDB connected: localhost
+2025-04-06T16:18:02.372Z info: WebSocket connection established with ID: uTkIrbXcSjCM8B0YAAej
+2025-04-06T16:18:02.766Z info: Server running on port 5001
+2025-04-06T16:18:02.781Z info: MongoDB connected: localhost
+2025-04-06T16:18:02.970Z info: Server running on port 5001
+2025-04-06T16:18:02.984Z info: MongoDB connected: localhost
+2025-04-06T16:18:03.171Z info: Server running on port 5001
+2025-04-06T16:18:03.185Z info: MongoDB connected: localhost
+2025-04-06T16:18:03.264Z info: WebSocket connection established with ID: 3iSGMN2_6XVbS9_9AAem
+2025-04-06T16:18:07.544Z info: Server running on port 5001
+2025-04-06T16:18:07.559Z info: MongoDB connected: localhost
+2025-04-06T16:18:07.636Z info: WebSocket connection established with ID: AfG0qm2QpkzqtcZ9AAeo
+2025-04-06T16:18:08.062Z info: Server running on port 5001
+2025-04-06T16:18:08.253Z info: Server running on port 5001
+2025-04-06T16:18:08.267Z info: MongoDB connected: localhost
+2025-04-06T16:18:08.346Z info: WebSocket connection established with ID: w3XOVIaIJtVtYtotAAeq
+2025-04-06T16:18:09.469Z info: Server running on port 5001
+2025-04-06T16:18:09.483Z info: MongoDB connected: localhost
+2025-04-06T16:18:09.671Z info: Server running on port 5001
+2025-04-06T16:18:09.685Z info: MongoDB connected: localhost
+2025-04-06T16:18:09.868Z info: Server running on port 5001
+2025-04-06T16:18:09.883Z info: MongoDB connected: localhost
+2025-04-06T16:18:09.961Z info: WebSocket connection established with ID: VjTlU1-Li1PmGAn1AAes
+2025-04-06T16:18:19.039Z info: Server running on port 5001
+2025-04-06T16:18:19.053Z info: MongoDB connected: localhost
+2025-04-06T16:18:19.136Z info: WebSocket connection established with ID: gaHXDq8J4Wt_mrV0AAeu
+2025-04-06T16:18:21.079Z info: Server running on port 5001
+2025-04-06T16:18:21.093Z info: MongoDB connected: localhost
+2025-04-06T16:18:21.180Z info: WebSocket connection established with ID: E1pP2PACrllCWyLCAAew
+2025-04-06T16:18:21.355Z info: Server running on port 5001
+2025-04-06T16:18:21.370Z info: MongoDB connected: localhost
+2025-04-06T16:18:21.557Z info: Server running on port 5001
+2025-04-06T16:18:21.572Z info: MongoDB connected: localhost
+2025-04-06T16:18:21.758Z info: Server running on port 5001
+2025-04-06T16:18:21.773Z info: MongoDB connected: localhost
+2025-04-06T16:18:21.878Z info: WebSocket connection established with ID: zXDC9LubMTarstLrAAey
+2025-04-06T16:18:25.342Z info: Server running on port 5001
+2025-04-06T16:18:25.356Z info: MongoDB connected: localhost
+2025-04-06T16:18:25.436Z info: WebSocket connection established with ID: -0vIlxtjBnxEH03SAAe0
+2025-04-06T16:18:27.640Z info: Server running on port 5001
+2025-04-06T16:18:27.653Z info: MongoDB connected: localhost
+2025-04-06T16:18:27.733Z info: WebSocket connection established with ID: axdMItNzOWoQLeivAAe2
+2025-04-06T16:18:30.373Z info: Server running on port 5001
+2025-04-06T16:18:30.388Z info: MongoDB connected: localhost
+2025-04-06T16:18:30.484Z info: WebSocket connection established with ID: OJAb-I1ZsrkCzSrSAAe4
+2025-04-06T16:18:31.715Z info: Server running on port 5001
+2025-04-06T16:18:31.730Z info: MongoDB connected: localhost
+2025-04-06T16:18:32.079Z info: Server running on port 5001
+2025-04-06T16:18:32.094Z info: MongoDB connected: localhost
+2025-04-06T16:18:32.179Z info: WebSocket connection established with ID: 6huwR7zvEoBXpKJ6AAe8
+2025-04-06T16:18:32.760Z info: Server running on port 5001
+2025-04-06T16:18:32.773Z info: MongoDB connected: localhost
+2025-04-06T16:18:32.959Z info: Server running on port 5001
+2025-04-06T16:18:32.974Z info: MongoDB connected: localhost
+2025-04-06T16:18:33.056Z info: WebSocket connection established with ID: SpipM-Fy63OIjAE4AAe-
+2025-04-06T16:18:54.596Z info: Server running on port 5001
+2025-04-06T16:18:54.610Z info: MongoDB connected: localhost
+2025-04-06T16:18:54.694Z info: WebSocket connection established with ID: 9jRqWCCq3VSm21BVAAfA
+2025-04-06T16:18:54.986Z info: Server running on port 5001
+2025-04-06T16:18:55.001Z info: MongoDB connected: localhost
+2025-04-06T16:18:55.096Z info: WebSocket connection established with ID: -f9QGZ8pRGNzFs9eAAfC
+2025-04-06T16:19:13.473Z info: Server running on port 5001
+2025-04-06T16:19:13.488Z info: MongoDB connected: localhost
+2025-04-06T16:19:13.668Z info: Server running on port 5001
+2025-04-06T16:19:13.682Z info: MongoDB connected: localhost
+2025-04-06T16:19:13.766Z info: WebSocket connection established with ID: 3lf64Vr8b-_OCbfsAAfE
+2025-04-06T16:19:14.250Z info: Server running on port 5001
+2025-04-06T16:19:14.265Z info: MongoDB connected: localhost
+2025-04-06T16:19:14.453Z info: Server running on port 5001
+2025-04-06T16:19:14.468Z info: MongoDB connected: localhost
+2025-04-06T16:19:14.550Z info: WebSocket connection established with ID: PNEgJ2aUtjUy06zsAAfG
+2025-04-06T16:19:16.564Z info: Server running on port 5001
+2025-04-06T16:19:16.577Z info: MongoDB connected: localhost
+2025-04-06T16:19:16.830Z info: Server running on port 5001
+2025-04-06T16:19:16.844Z info: MongoDB connected: localhost
+2025-04-06T16:19:16.926Z info: WebSocket connection established with ID: Z5VFSIPV4SOWQa4wAAfK
+2025-04-06T16:19:23.561Z info: Server running on port 5001
+2025-04-06T16:19:23.575Z info: MongoDB connected: localhost
+2025-04-06T16:19:23.785Z info: Server running on port 5001
+2025-04-06T16:19:23.799Z info: MongoDB connected: localhost
+2025-04-06T16:19:23.984Z info: Server running on port 5001
+2025-04-06T16:19:23.997Z info: MongoDB connected: localhost
+2025-04-06T16:19:24.081Z info: WebSocket connection established with ID: YMwvrom9FFu4OfetAAfN
+2025-04-06T16:19:43.764Z info: Server running on port 5001
+2025-04-06T16:19:43.947Z info: Server running on port 5001
+2025-04-06T16:19:43.960Z info: MongoDB connected: localhost
+2025-04-06T16:19:44.173Z info: Server running on port 5001
+2025-04-06T16:19:44.192Z info: MongoDB connected: localhost
+2025-04-06T16:19:44.275Z info: WebSocket connection established with ID: xx-fsO2OfUj-I1QQAAfQ
+2025-04-06T16:19:44.738Z info: Server running on port 5001
+2025-04-06T16:19:44.751Z info: MongoDB connected: localhost
+2025-04-06T16:19:44.836Z info: WebSocket connection established with ID: AoK2y7e1fj0-Ym1vAAfS
+2025-04-06T16:19:45.173Z info: Server running on port 5001
+2025-04-06T16:19:45.187Z info: MongoDB connected: localhost
+2025-04-06T16:19:45.372Z info: Server running on port 5001
+2025-04-06T16:19:45.386Z info: MongoDB connected: localhost
+2025-04-06T16:19:45.576Z info: Server running on port 5001
+2025-04-06T16:19:45.591Z info: MongoDB connected: localhost
+2025-04-06T16:19:46.034Z info: Server running on port 5001
+2025-04-06T16:19:46.047Z info: MongoDB connected: localhost
+2025-04-06T16:19:46.219Z info: WebSocket connection established with ID: EcxK2z4J1NmlagRhAAfV
+2025-04-06T16:20:48.647Z info: Server running on port 5001
+2025-04-06T16:20:48.662Z info: MongoDB connected: localhost
+2025-04-06T16:20:48.757Z info: WebSocket connection established with ID: SvXZyC_dEC-S5zr0AAfX
+2025-04-06T16:20:49.279Z info: Server running on port 5001
+2025-04-06T16:20:49.293Z info: MongoDB connected: localhost
+2025-04-06T16:20:49.467Z info: Server running on port 5001
+2025-04-06T16:20:49.482Z info: MongoDB connected: localhost
+2025-04-06T16:20:49.564Z info: WebSocket connection established with ID: wahu8gpoV3sSPuuwAAfZ
+2025-04-06T16:21:19.852Z info: Server running on port 5001
+2025-04-06T16:21:19.866Z info: MongoDB connected: localhost
+2025-04-06T16:21:19.950Z info: WebSocket connection established with ID: CRUKAia2HGnEyAKTAAfb
+2025-04-06T16:21:20.737Z info: Server running on port 5001
+2025-04-06T16:21:20.752Z info: MongoDB connected: localhost
+2025-04-06T16:21:20.837Z info: WebSocket connection established with ID: fUg7DDIAukLrLlrxAAfd
+2025-04-06T16:21:26.580Z info: Server running on port 5001
+2025-04-06T16:21:26.593Z info: MongoDB connected: localhost
+2025-04-06T16:21:26.674Z info: WebSocket connection established with ID: 9TrJYSGjPKNtcHfRAAff
+2025-04-06T16:21:27.986Z info: Server running on port 5001
+2025-04-06T16:21:28.001Z info: MongoDB connected: localhost
+2025-04-06T16:21:28.103Z info: WebSocket connection established with ID: vHLDCW4eV6KH46YnAAfh
+2025-04-06T16:21:30.705Z info: Server running on port 5001
+2025-04-06T16:21:30.720Z info: MongoDB connected: localhost
+2025-04-06T16:21:30.799Z info: WebSocket connection established with ID: o8QhAPO992w59hQVAAfj
+2025-04-06T16:21:34.372Z info: Server running on port 5001
+2025-04-06T16:21:34.388Z info: MongoDB connected: localhost
+2025-04-06T16:21:34.577Z info: Server running on port 5001
+2025-04-06T16:21:34.590Z info: MongoDB connected: localhost
+2025-04-06T16:21:34.670Z info: WebSocket connection established with ID: 7uRCXNv9PCChnbLLAAfl
+2025-04-06T16:21:39.466Z info: Server running on port 5001
+2025-04-06T16:21:39.480Z info: MongoDB connected: localhost
+2025-04-06T16:21:39.558Z info: WebSocket connection established with ID: -2peHqmBXq_p5tGnAAfn
+2025-04-06T16:21:42.886Z info: Server running on port 5001
+2025-04-06T16:21:42.902Z info: MongoDB connected: localhost
+2025-04-06T16:21:42.978Z info: WebSocket connection established with ID: MaPnM_a9Zwu5723rAAfp
+2025-04-06T16:21:46.168Z info: Server running on port 5001
+2025-04-06T16:21:46.182Z info: MongoDB connected: localhost
+2025-04-06T16:21:46.262Z info: WebSocket connection established with ID: jA3KiWb77ACgWfscAAfr
+2025-04-06T16:22:02.762Z info: Server running on port 5001
+2025-04-06T16:22:02.777Z info: MongoDB connected: localhost
+2025-04-06T16:22:02.954Z info: Server running on port 5001
+2025-04-06T16:22:02.968Z info: MongoDB connected: localhost
+2025-04-06T16:22:03.047Z info: WebSocket connection established with ID: YupNIiNEYJ6QZoRCAAft
+2025-04-06T16:22:21.784Z info: Server running on port 5001
+2025-04-06T16:22:21.995Z info: Server running on port 5001
+2025-04-06T16:22:22.009Z info: MongoDB connected: localhost
+2025-04-06T16:22:22.089Z info: WebSocket connection established with ID: CSBt86g-wxhuH0-kAAfv
+2025-04-06T16:23:39.217Z info: Server running on port 5001
+2025-04-06T16:23:39.231Z info: MongoDB connected: localhost
+2025-04-06T16:23:39.312Z info: WebSocket connection established with ID: F-Cm14Lpvjf5bg7sAAfx

@@ -3,7 +3,7 @@
 import express from "express";
 import connectDB from "./config/db.config.js";
 import { config } from "./config/env.config.js";
-import userRoutes from "./routes/userRoutes.js";
+import aisRoutes from "./routes/aisRoutes.js";
 import { logger } from "./config/logger.config.js";
 import { connectSocket } from "./config/ws.config.js";
 
@@ -14,7 +14,7 @@ connectSocket();
 
 app.use(express.json());
 
-app.use("/api/users", userRoutes);
+app.use("/api/ais", aisRoutes);
 
 app.listen(config.port, () => {
   logger.info(`Server running on port ${config.port}`);

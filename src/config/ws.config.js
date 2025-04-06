@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 import { config } from "./env.config.js";
 import { logger } from "./logger.config.js";
-import lookup from "socket.io-client";
+import { handleAisData } from "../controllers/aisController.js";
 
 let parsedData = null;
 
@@ -18,7 +18,7 @@ const connectSocket = () => {
   });
 
   socket.on("messageFromServer", (data) => {
-    parsedData = data;
+    handleAisData(data);
   });
 
   socket.on("connect_error", (err) => {
