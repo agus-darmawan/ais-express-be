@@ -44,13 +44,13 @@ export const handleAisData = async (props) => {
 
   try {
     if (!data || !data.mmsi || !data.lat || !data.lon) {
-      console.log("Data tidak lengkap atau tidak valid, melewatkan proses...");
+      // console.log("Data tidak lengkap atau tidak valid, melewatkan proses...");
       return;
     }
     if (message?.data?.valid) {
-      if (data.mmsi === "525010323") {
-        data.mmsi = "525005223";
-      }
+      // if (data.mmsi === "525010323") {
+      //   data.mmsi = "525005223";
+      // }
       const vesselData = {
         mmsi: data.mmsi,
         channel: data.channel,
@@ -74,7 +74,7 @@ export const handleAisData = async (props) => {
         ],
       };
 
-      return await saveVesselData(vesselData);
+      // return await saveVesselData(vesselData);
     }
   } catch (error) {
     console.error("Error handling AIS data:", error.message);

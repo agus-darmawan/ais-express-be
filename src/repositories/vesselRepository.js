@@ -4,7 +4,7 @@ import Vessel from "../models/vessel.model.js";
 // Get all vessels
 export const getAllVessels = async () => {
   try {
-    return await Vessel.find().populate("type"); // Populate ShipType data
+    return await Vessel.find().populate("type fuelType"); // Populate ShipType and Fuel data
   } catch (error) {
     throw new Error("Error fetching vessels: " + error.message);
   }
@@ -13,7 +13,7 @@ export const getAllVessels = async () => {
 // Get vessel by MMSI
 export const getVesselByMmsi = async (mmsi) => {
   try {
-    return await Vessel.findOne({ mmsi }).populate("type"); // Populate ShipType data
+    return await Vessel.findOne({ mmsi }).populate("type fuelType"); // Populate ShipType and Fuel data
   } catch (error) {
     throw new Error("Error fetching vessel by MMSI: " + error.message);
   }

@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       data.data.forEach((ship) => {
+        if (ship.mmsi != "525005223") return;
         const heading =
           ship.positions[0].hdg >= 360
             ? ship.positions[0].hdg % 360

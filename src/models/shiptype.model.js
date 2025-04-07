@@ -4,6 +4,8 @@ const shipTypeSchema = new mongoose.Schema({
   id: { type: Number, unique: true, required: true },
   name: { type: String, required: true },
   capacityUnit: { type: String, required: true },
+  a: { type: Number, required: true },
+  c: { type: Number, required: true },
   ddVector: [
     {
       d1: { type: Number },

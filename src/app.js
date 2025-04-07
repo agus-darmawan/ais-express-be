@@ -7,6 +7,7 @@ import {
   vesselRoutes,
   fuelRoutes,
   zvalueRoutes,
+  fpCiiRoutes,
 } from "./routes/index.js";
 import { logger } from "./config/logger.config.js";
 import { connectSocket } from "./config/ws.config.js";
@@ -29,6 +30,7 @@ app.use("/api/v1", shipTypeRoutes);
 app.use("/api/v1", vesselRoutes);
 app.use("/api/v1", fuelRoutes);
 app.use("/api/v1", zvalueRoutes);
+app.use("/api/v1", fpCiiRoutes);
 
 app.use(express.static(path.join(__dirname, "../public")));
 app.set("view engine", "ejs");

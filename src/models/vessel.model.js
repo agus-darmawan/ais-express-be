@@ -18,6 +18,7 @@ const vesselSchema = new mongoose.Schema({
   status: { type: String, required: true },
   foto: { type: String }, // Assuming you store image URL or file path
   type: { type: mongoose.Schema.Types.ObjectId, ref: "ShipType" }, // Referencing ShipType
+  fuelType: { type: mongoose.Schema.Types.ObjectId, ref: "Fuel" }, // Referencing Fuel model
 
   // Ship Size Data
   capacity: { type: Number, required: true },
