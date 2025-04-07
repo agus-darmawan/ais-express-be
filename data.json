@@ -1,0 +1,332 @@
+[
+  {
+    "_id": {
+      "$oid": "67f3bb6ebad62e4439acf259"
+    },
+    "id": 1,
+    "name": "Bulk Carrier",
+    "capacityUnit": "DWT",
+    "a": 4745,
+    "c": 0.622,
+    "ddVector": [
+      {
+        "d1": 0.86,
+        "d2": 0.94,
+        "d3": 1.06,
+        "d4": 1.18,
+        "_id": {
+          "$oid": "67f3bb6ebad62e4439acf25a"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3bccfbad62e4439b2a2bf"
+    },
+    "id": 2,
+    "name": "Gas Carrier >65000 DWT",
+    "capacityUnit": "DWT",
+    "a": 144050000000.0,
+    "c": 2.071,
+    "ddVector": [
+      {
+        "d1": 0.81,
+        "d2": 0.91,
+        "d3": 1.12,
+        "d4": 1.44,
+        "_id": {
+          "$oid": "67f3bccfbad62e4439b2a2c0"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3bf331f5c23324d840211"
+    },
+    "id": 3,
+    "name": "Gas Carrier <65000 DWT",
+    "capacityUnit": "DWT",
+    "a": 8104,
+    "c": 0.639,
+    "ddVector": [
+      {
+        "d1": 0.85,
+        "d2": 0.95,
+        "d3": 1.06,
+        "d4": 1.25,
+        "_id": {
+          "$oid": "67f3bf331f5c23324d840212"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3bfc6017b8d8265f4b87a"
+    },
+    "id": 4,
+    "name": "Tanker",
+    "capacityUnit": "DWT",
+    "a": 5247,
+    "c": 0.61,
+    "ddVector": [
+      {
+        "d1": 0.82,
+        "d2": 0.93,
+        "d3": 1.08,
+        "d4": 1.28,
+        "_id": {
+          "$oid": "67f3bfc6017b8d8265f4b87b"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c020ef8b2e18d058a0fb"
+    },
+    "id": 5,
+    "name": "Container Ship",
+    "capacityUnit": "DWT",
+    "a": 1984,
+    "c": 0.489,
+    "ddVector": [
+      {
+        "d1": 0.83,
+        "d2": 0.94,
+        "d3": 1.07,
+        "d4": 1.19,
+        "_id": {
+          "$oid": "67f3c020ef8b2e18d058a0fc"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c044ef8b2e18d0593d7d"
+    },
+    "id": 6,
+    "name": "General Cargo Ship > 20000 DWT",
+    "capacityUnit": "DWT",
+    "a": 31948,
+    "c": 0.792,
+    "ddVector": [
+      {
+        "d1": 0.83,
+        "d2": 0.94,
+        "d3": 1.06,
+        "d4": 1.19,
+        "_id": {
+          "$oid": "67f3c044ef8b2e18d0593d7e"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c046ef8b2e18d0593d7f"
+    },
+    "id": 7,
+    "name": "General Cargo Ship < 20000 DWT",
+    "capacityUnit": "DWT",
+    "a": 588,
+    "c": 0.3885,
+    "ddVector": [
+      {
+        "d1": 0.83,
+        "d2": 0.94,
+        "d3": 1.06,
+        "d4": 1.19,
+        "_id": {
+          "$oid": "67f3c046ef8b2e18d0593d80"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c097ef8b2e18d05abe5f"
+    },
+    "id": 8,
+    "name": "Refrigerated Cargo Ship",
+    "capacityUnit": "DWT",
+    "a": 4600,
+    "c": 0.557,
+    "ddVector": [
+      {
+        "d1": 0.78,
+        "d2": 0.91,
+        "d3": 1.07,
+        "d4": 1.2,
+        "_id": {
+          "$oid": "67f3c097ef8b2e18d05abe60"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c10def8b2e18d05cbb4f"
+    },
+    "id": 9,
+    "name": "Combination Carrier",
+    "capacityUnit": "DWT",
+    "a": 40853,
+    "c": 0.812,
+    "ddVector": [
+      {
+        "d1": 0.87,
+        "d2": 0.96,
+        "d3": 1.06,
+        "d4": 1.14,
+        "_id": {
+          "$oid": "67f3c10def8b2e18d05cbb50"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c15def8b2e18d05e2811"
+    },
+    "id": 10,
+    "name": "LNG Carrier >100000 DWT",
+    "capacityUnit": "DWT",
+    "a": 9.827,
+    "c": 0.0,
+    "ddVector": [
+      {
+        "d1": 0.89,
+        "d2": 0.98,
+        "d3": 1.06,
+        "d4": 1.13,
+        "_id": {
+          "$oid": "67f3c15def8b2e18d05e2812"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c18eef8b2e18d05f07cd"
+    },
+    "id": 11,
+    "name": "LNG Carrier <100000 DWT",
+    "capacityUnit": "DWT",
+    "a": 144790000000000.0,
+    "c": 2.673,
+    "ddVector": [
+      {
+        "d1": 0.78,
+        "d2": 0.92,
+        "d3": 1.1,
+        "d4": 1.37,
+        "_id": {
+          "$oid": "67f3c18eef8b2e18d05f07ce"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c1ebef8b2e18d060e055"
+    },
+    "id": 12,
+    "name": "Ro-ro Cargo Ship (Vehicle Carrier)",
+    "capacityUnit": "GT",
+    "a": 5739,
+    "c": 0.631,
+    "ddVector": [
+      {
+        "d1": 0.86,
+        "d2": 0.94,
+        "d3": 1.06,
+        "d4": 1.16,
+        "_id": {
+          "$oid": "67f3c1ebef8b2e18d060e056"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c218ef8b2e18d061bb4c"
+    },
+    "id": 13,
+    "name": "Ro-ro Cargo Ship",
+    "capacityUnit": "DWT",
+    "a": 10952,
+    "c": 0.637,
+    "ddVector": [
+      {
+        "d1": 0.66,
+        "d2": 0.9,
+        "d3": 1.11,
+        "d4": 1.37,
+        "_id": {
+          "$oid": "67f3c218ef8b2e18d061bb4d"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c244ef8b2e18d06296ad"
+    },
+    "id": 14,
+    "name": "Ro-ro Passenger Ship",
+    "capacityUnit": "GT",
+    "a": 7540,
+    "c": 0.587,
+    "ddVector": [
+      {
+        "d1": 0.72,
+        "d2": 0.9,
+        "d3": 1.12,
+        "d4": 1.41,
+        "_id": {
+          "$oid": "67f3c244ef8b2e18d06296ae"
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67f3c26cef8b2e18d0635c54"
+    },
+    "id": 15,
+    "name": "Cruise Passenger Ship",
+    "capacityUnit": "GT",
+    "a": 930,
+    "c": 0.383,
+    "ddVector": [
+      {
+        "d1": 0.87,
+        "d2": 0.95,
+        "d3": 1.06,
+        "d4": 1.16,
+        "_id": {
+          "$oid": "67f3c26cef8b2e18d0635c55"
+        }
+      }
+    ],
+    "__v": 0
+  }
+]

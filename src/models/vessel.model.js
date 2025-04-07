@@ -12,6 +12,7 @@ const vesselSchema = new mongoose.Schema({
 
   // Ship General Data
   name: { type: String, required: true },
+  imo: { type: String, required: true },
   routeStart: { type: String, required: true },
   routeEnd: { type: String, required: true },
   status: { type: String, required: true },
@@ -21,7 +22,6 @@ const vesselSchema = new mongoose.Schema({
   // Ship Size Data
   capacity: { type: Number, required: true },
   cb: { type: Number, required: true },
-  draff: { type: Number, required: true },
   Lwl: { type: Number, required: true },
   B: { type: Number, required: true },
   T: { type: Number, required: true },
@@ -31,7 +31,7 @@ const vesselSchema = new mongoose.Schema({
   Cp: { type: Number, required: true },
   Cm: { type: Number, required: true },
   CbNSP: { type: Number, required: true },
-  Veins: { type: Number, required: true },
+  Vs: { type: Number, required: true }, // Replaced 'Veins' with 'Vdinas'
   Bulbosbow: { type: Boolean, required: true },
   Cstern: { type: Number, required: true },
   C1: { type: Number, required: true },
@@ -41,6 +41,7 @@ const vesselSchema = new mongoose.Schema({
 
   // Ship Main Engine Data
   mainEngine: {
+    engine: { type: String, required: true }, // Added engine name (brand/model)
     RPM: { type: Number, required: true },
     POWER: { type: Number, required: true },
     SFOC: { type: Number, required: true },
@@ -48,6 +49,7 @@ const vesselSchema = new mongoose.Schema({
 
   // Ship Auxiliary Data
   auxiliaryEngine: {
+    generators: { type: String, required: true }, // Added generators name and brand
     RPM: { type: Number, required: true },
     POWER: { type: Number, required: true },
     SFOC: { type: Number, required: true },

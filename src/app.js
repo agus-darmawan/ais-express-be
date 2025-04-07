@@ -1,7 +1,12 @@
 import express from "express";
 import connectDB from "./config/db.config.js";
 import { config } from "./config/env.config.js";
-import { aisRoutes, shipTypeRoutes, vesselRoutes } from "./routes/index.js";
+import {
+  aisRoutes,
+  shipTypeRoutes,
+  vesselRoutes,
+  fuelRoutes,
+} from "./routes/index.js";
 import { logger } from "./config/logger.config.js";
 import { connectSocket } from "./config/ws.config.js";
 import path from "path";
@@ -21,6 +26,7 @@ app.use(express.json());
 app.use("/api/v1", aisRoutes);
 app.use("/api/v1", shipTypeRoutes);
 app.use("/api/v1", vesselRoutes);
+app.use("/api/v1", fuelRoutes);
 
 app.use(express.static(path.join(__dirname, "../public")));
 app.set("view engine", "ejs");
