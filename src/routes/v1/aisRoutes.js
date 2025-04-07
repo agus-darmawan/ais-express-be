@@ -1,12 +1,15 @@
 import express from "express";
 import {
   getAllAisData,
-  getAisDataByImmsi,
+  getAisDataByMmsi,
 } from "../../controllers/aisController.js";
 
 const router = express.Router();
 
+// Get all AIS data (including last position)
 router.get("/ais/all", getAllAisData);
-router.get("/ais/immsi/:immsi", getAisDataByImmsi);
+
+// Get AIS data by MMSI
+router.get("/ais/mmsi/:mmsi", getAisDataByMmsi);
 
 export default router;

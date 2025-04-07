@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const map = L.map("map").setView([-6.949775, 110.422796666667], 6);
+  const map = L.map("map").setView([-8.452174, 115.843191], 10);
 
   const osmLayer = L.tileLayer(
     "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -16,28 +16,36 @@ document.addEventListener("DOMContentLoaded", function () {
   L.control.layers(baseLayers).addTo(map);
   map.zoomControl.setPosition("topright");
 
-  fetch("http://localhost:5001/api/v1/ais/all")
+  fetch("/api/v1/ais/all")
     .then((response) => response.json())
     .then((data) => {
       data.data.forEach((ship) => {
-        const heading = ship.hdg >= 360 ? ship.hdg % 360 : ship.hdg;
+        const heading =
+          ship.positions[0].hdg >= 360
+            ? ship.positions[0].hdg % 360
+            : ship.positions[0].hdg;
 
         const icon = L.divIcon({
           className: "ship-icon",
-          html: `<img src="http://localhost:5001/assets/img/icons/ships/tanker.png" style="width: 20px; height: 20px; transform: rotate(${heading}deg);" />`,
-          iconSize: [20, 20],
+          html: `<img src="/assets/img/icons/ships/tanker.png" style="width: 10px; height: 30px; transform: rotate(${heading}deg);" />`,
           iconAnchor: [10, 10],
           popupAnchor: [0, -16],
         });
 
-        const marker = L.marker([ship.lat, ship.lon], { icon: icon }).addTo(
-          map
-        );
+        const marker = L.marker(
+          [ship.positions[0].lat, ship.positions[0].lon],
+          {
+            icon: icon,
+          }
+        ).addTo(map);
         marker.bindPopup(`
           <b>IMMSI:</b> ${ship.immsi}<br>
+          <b>MMSI:</b> ${ship.mmsi}<br>
           <b>Heading:</b> ${heading}°<br>
-          <b>Latitude:</b> ${ship.lat}<br>
-          <b>Longitude:</b> ${ship.lon}
+          <b>Latitude:</b> ${ship.positions[0].lat}<br>
+          <b>Longitude:</b> ${ship.positions[0].lon}<br>
+          <b>SOG:</b> ${ship.positions[0].sog} knots<br>
+          <b>COG:</b> ${ship.positions[0].cog}°<br>
         `);
       });
     })

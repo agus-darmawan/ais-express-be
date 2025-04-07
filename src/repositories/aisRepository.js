@@ -21,7 +21,7 @@ export const createOrUpdateVessel = async (data) => {
 
 export const getAisFields = async () => {
   try {
-    const aisData = await Ais.find({}, "hdg lat lon immsi");
+    const aisData = await Ais.find({}, "hdg lat lon cog sog immsi mmsi");
     return aisData;
   } catch (error) {
     throw new Error("Error fetching AIS data: " + error.message);
