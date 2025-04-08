@@ -5,6 +5,7 @@ import {
   fetchVesselByMmsi,
   createOrUpdateVesselData,
   deleteVesselData,
+  getVesselDetails,
 } from "../services/vesselService.js";
 
 // Get all vessels
@@ -55,5 +56,17 @@ export const deleteVesselController = async (req, res) => {
     }
   } catch (error) {
     apiResponse(res, 500, "Error deleting vessel", error.message);
+  }
+};
+
+export const getVesselData = async (req, res) => {
+  const { mmsi } = req.params;
+
+  try {
+    const vesselData = await getVesselDetails(mmsi);
+
+    apiResponse(res, 200, "Successfully fetched vessel data", vesselData);
+  } catch (error) {
+    apiResponse(res, 500, "Error fetching vessel data", error.message);
   }
 };

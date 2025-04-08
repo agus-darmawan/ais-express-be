@@ -125,3 +125,23 @@ export const getAisDataByMmsi = async (req, res) => {
     apiResponse(res, 500, "Error fetching AIS data", error.message);
   }
 };
+
+export const getMmsiListByQuery = async (req, res) => {
+  const { query } = req.query;
+  try {
+    const aisData = await Ais.find({
+      mmsi: { $regex: query, $options: "i" },
+    }).select("mmsi");
+
+    if (aisData.length > 0) {
+      const mmsiList = aisData.map((ais) => ais.mmsi);
+      apiResponse(res, 200, "Successfully fetched MMSI list", { mmsiList });
+    } else {
+      apiResponse(res, 404, "No MMSIs found for the given query", {
+        mmsiList: [],
+      });
+    }
+  } catch (error) {
+    apiResponse(res, 500, "Error fetching MMSI list", error.message);
+  }
+};

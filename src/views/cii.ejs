@@ -7,7 +7,7 @@
   </head>
   <body class="relative font-sans bg-gray-100">
     <div
-      class="bg-gray-800 text-white p-2 text-center absolute z-10 top-0 left-0 w-fit px-28 rounded-br-full shadow-lg"
+      class="bg-gray-800 text-white p-2 text-center absolute z-10 top-0 left-0 w-fit px-20 rounded-br-xl shadow-lg"
     >
       <h1 class="text-xl font-semibold">CII Calculation</h1>
     </div>
@@ -33,36 +33,21 @@
         id="ship-info"
         class="mt-4 mx-5 bg-white h-auto rounded-xl border border-gray-400 shadow-inner p-5"
       >
-        <div id="ship-details" class="w-full text-gray-700 text-sm">
-          <h3 class="text-m font-bold mb-2 text-center">Ship Data</h3>
-          <div class="text-left text-xs">
-            <p><b>Ship Name:</b> Dharma Ferry VIII</p>
-            <p><b>Flag:</b> Indonesia</p>
-            <p><b>IMO Number:</b> 9037941</p>
-            <p><b>Type:</b> Ro-ro Passenger</p>
-            <p><b>Speed (SOG):</b> 12 Knots</p>
-            <p><b>Course (COG):</b> 150°</p>
-            <p><b>Latitude:</b> -8.7369366</p>
-            <p><b>Longitude:</b> 116.04695</p>
-            <p><b>LWL:</b> 69.72 m</p>
-            <p><b>Breadth:</b> 16.3 m</p>
-            <p><b>Draft:</b> 4.1 m</p>
-            <p><b>Port:</b> Lembar - Padang Bai</p>
-          </div>
-        </div>
+        <div id="ship-details" class="w-full text-gray-700 text-sm"></div>
         <div class="text-center mt-9">
           <img
             id="ship-image"
             src="http://localhost:5001/assets/img/ships/525005223.jpg"
             alt="Ship Image"
             class="w-full h-auto rounded-lg"
+            style="display: none"
           />
         </div>
 
         <div class="mt-2 text-center">
           <button
             id="calculate-cii"
-            class="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm"
+            class="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm hidden"
           >
             Calculate CII
           </button>

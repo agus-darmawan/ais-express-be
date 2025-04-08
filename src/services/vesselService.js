@@ -4,6 +4,7 @@ import {
   getVesselByMmsi,
   createOrUpdateVessel,
   deleteVesselByMmsi,
+  getVesselDataByMmsi,
 } from "../repositories/vesselRepository.js";
 
 // Fetch all vessels
@@ -24,4 +25,16 @@ export const createOrUpdateVesselData = async (data) => {
 // Delete a vessel by MMSI
 export const deleteVesselData = async (mmsi) => {
   return await deleteVesselByMmsi(mmsi);
+};
+
+export const getVesselDetails = async (mmsi) => {
+  try {
+    const vesselData = await getVesselDataByMmsi(mmsi);
+    if (!vesselData) {
+      throw new Error("Vessel not found");
+    }
+    return vesselData;
+  } catch (error) {
+    throw new Error("Error fetching vessel details: " + error.message);
+  }
 };

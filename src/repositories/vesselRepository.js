@@ -1,5 +1,39 @@
 // repositories/vesselRepository.js
 import Vessel from "../models/vessel.model.js";
+import Ais from "../models/ais.model.js";
+
+export const getVesselDataByMmsi = async (mmsi) => {
+  try {
+    const vessel = await Vessel.findOne({ mmsi }).populate("type fuelType");
+    const aisData = await Ais.findOne({ mmsi });
+
+    if (!vessel || !aisData) {
+      return null;
+    }
+
+    const lastPosition = aisData.positions[aisData.positions.length - 1];
+    const combinedData = {
+      name: vessel.name,
+      flag: vessel.flag,
+      imo: vessel.imo,
+      type: vessel.type.name,
+      speed: lastPosition?.sog || "N/A",
+      course: lastPosition?.cog || "N/A",
+      latitude: lastPosition?.lat || "N/A",
+      longitude: lastPosition?.lon || "N/A",
+      Lwl: vessel.Lwl,
+      breadth: vessel.B,
+      draft: vessel.T,
+      port: vessel.routeStart + " - " + vessel.routeEnd,
+      mmsi: vessel.mmsi,
+      picture: vessel.foto,
+    };
+    return combinedData;
+  } catch (error) {
+    console.error("Error getting vessel data:", error.message);
+    throw new Error("Error fetching vessel data");
+  }
+};
 
 // Get all vessels
 export const getAllVessels = async () => {

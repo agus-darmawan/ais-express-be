@@ -5,6 +5,7 @@ import {
   getVesselByMmsiController,
   createOrUpdateVesselController,
   deleteVesselController,
+  getVesselData,
 } from "../../controllers/vesselController.js";
 
 const router = express.Router();
@@ -20,5 +21,8 @@ router.post("/vessels", createOrUpdateVesselController);
 
 // Delete vessel by MMSI
 router.delete("/vessels/:mmsi", deleteVesselController);
+
+// Get vessel data by MMSI
+router.get("/vessel/mmsi/:mmsi", getVesselData);
 
 export default router;
