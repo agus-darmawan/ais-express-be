@@ -5,12 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AIS CII Calculation</title>
   </head>
-  <body class="relative">
+  <body class="relative font-sans bg-gray-100">
+    <div
+      class="bg-gray-800 text-white p-2 text-center absolute z-10 top-0 left-0 w-fit px-28 rounded-br-full shadow-lg"
+    >
+      <h1 class="text-xl font-semibold">CII Calculation</h1>
+    </div>
+
+    <div
+      class="bg-[#AAD3DF] h-screen absolute z-10 top-0 right-0 w-[28vw] pr-16 pt-9 pb-10 border-2 border-black rounded-l-lg shadow-xl box-border"
+    >
+      <div class="relative mr-5 mb-4">
+        <input
+          type="text"
+          id="mmsi-input"
+          class="w-full p-2 pl-10 pr-10 rounded-r-full border border-gray-400 shadow-md focus:ring-2 focus:ring-blue-500 text-sm"
+          placeholder="Enter MMSI"
+        />
+        <i
+          class="fas fa-search absolute right-4 top-2 text-gray-600 text-xl"
+        ></i>
+      </div>
+
+      <div id="mmsi-list" class="mx-5 mb-4 space-y-2"></div>
+
+      <div
+        id="ship-info"
+        class="mt-4 mx-5 bg-white h-auto rounded-xl border border-gray-400 shadow-inner p-5"
+      >
+        <div id="ship-details" class="w-full text-gray-700 text-sm">
+          <h3 class="text-m font-bold mb-2 text-center">Ship Data</h3>
+          <div class="text-left text-xs">
+            <p><b>Ship Name:</b> Dharma Ferry VIII</p>
+            <p><b>Flag:</b> Indonesia</p>
+            <p><b>IMO Number:</b> 9037941</p>
+            <p><b>Type:</b> Ro-ro Passenger</p>
+            <p><b>Speed (SOG):</b> 12 Knots</p>
+            <p><b>Course (COG):</b> 150°</p>
+            <p><b>Latitude:</b> -8.7369366</p>
+            <p><b>Longitude:</b> 116.04695</p>
+            <p><b>LWL:</b> 69.72 m</p>
+            <p><b>Breadth:</b> 16.3 m</p>
+            <p><b>Draft:</b> 4.1 m</p>
+            <p><b>Port:</b> Lembar - Padang Bai</p>
+          </div>
+        </div>
+        <div class="text-center mt-9">
+          <img
+            id="ship-image"
+            src="http://localhost:5001/assets/img/ships/525005223.jpg"
+            alt="Ship Image"
+            class="w-full h-auto rounded-lg"
+          />
+        </div>
+
+        <div class="mt-2 text-center">
+          <button
+            id="calculate-cii"
+            class="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm"
+          >
+            Calculate CII
+          </button>
+        </div>
+      </div>
+    </div>
+
     <%- include('components/sidebar') %> <%- include('components/fullmap') %>
+
     <script
       src="https://kit.fontawesome.com/ae940d5408.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/assets/js/cii.js"></script>
   </body>
 </html>

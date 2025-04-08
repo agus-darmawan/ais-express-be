@@ -5,17 +5,27 @@ document.addEventListener("DOMContentLoaded", function () {
   const icons = document.querySelectorAll(".icon-item");
   const currentPage = window.location.pathname;
 
+  if (localStorage.getItem("sidebarOpen") === "true") {
+    sidebar.classList.remove("hidden");
+    hamburgerIcon.classList.remove("fa-grip-horizontal");
+    hamburgerIcon.classList.add("fa-times");
+  } else {
+    sidebar.classList.add("hidden");
+    hamburgerIcon.classList.remove("fa-times");
+    hamburgerIcon.classList.add("fa-grip-horizontal");
+  }
+
   toggleButton.addEventListener("click", () => {
-    // Toggle sidebar visibility
     sidebar.classList.toggle("hidden");
 
-    // Toggle the hamburger icon and the X icon
     if (sidebar.classList.contains("hidden")) {
       hamburgerIcon.classList.remove("fas", "fa-times");
       hamburgerIcon.classList.add("fas", "fa-grip-horizontal");
+      localStorage.setItem("sidebarOpen", "false");
     } else {
       hamburgerIcon.classList.remove("fas", "fa-grip-horizontal");
       hamburgerIcon.classList.add("fas", "fa-times");
+      localStorage.setItem("sidebarOpen", "true");
     }
   });
 
@@ -27,16 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
       icon.classList.add("text-white");
     }
 
-    icon.addEventListener("mouseover", () => {
-      icon.classList.add("text-yellow-500", "cursor-pointer");
-    });
-
-    icon.addEventListener("mouseout", () => {
-      icon.classList.remove("text-yellow-500", "cursor-pointer");
-    });
-
+    // Removed hover color animations
     icon.addEventListener("click", () => {
-      // Redirect logic
       window.location.href = redirectTo;
     });
   });

@@ -1,49 +1,49 @@
-<aside
-  class="bg-gray-800 text-white p-2 absolute z-100 top-10 right-5 rounded-lg shadow-lg flex items-center justify-center gap-y-4 flex-col w-12 py-2 transition-all duration-300 transform hover:scale-105"
->
-  <button
-    id="toggle-sidebar"
-    class="p-2 rounded-lg hover:bg-gray-700 transition-all duration-300"
-  >
-    <i id="hamburger-icon" class="fas fa-grip-horizontal text-xl"></i>
-  </button>
+<aside id="sidebar" class="absolute z-100 top-10 right-5">
   <div
-    id="sidebar-item"
-    class="flex items-center justify-center flex-col text-lg hidden pb-3 gap-y-3 transition-all duration-300"
+    id="sidebar-content"
+    class="rounded-lg shadow-lg flex items-center justify-center gap-y-4 flex-col w-12 py-2 bg-gray-800 text-white p-2"
   >
-    <i
-      class="icon-item fas fa-home hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="/"
-    ></i>
-    <i
-      class="icon-item fas fa-anchor hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="c#"
-    ></i>
-    <i
-      class="icon-item fas fa-cloud-upload-alt hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="c#"
-    ></i>
-    <i
-      class="icon-item fas fa-temperature-high hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="c#"
-    ></i>
-    <i
-      class="icon-item fas fa-cloud-sun-rain hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="c#"
-    ></i>
-    <i
-      class="icon-item fas fa-fill-drip hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="c#"
-    ></i>
-    <i
-      class="icon-item fa-brands fa-cuttlefish hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="/cii"
-      id="cuttlefish"
-    ></i>
-    <i
-      class="icon-item fa-brands fa-sellcast hover:bg-gray-700 p-2 rounded-lg transition-all duration-300 w-9 h-9 flex items-center justify-center cursor-pointer"
-      data-redirect="c#"
-    ></i>
+    <button id="toggle-sidebar" class="p-2 rounded-lg hover:bg-gray-700">
+      <i id="hamburger-icon" class="fas fa-grip-horizontal text-xl"></i>
+    </button>
+    <div
+      id="sidebar-item"
+      class="flex items-center justify-center flex-col text-lg hidden pb-3 gap-y-3"
+    >
+      <i
+        class="icon-item fas fa-home hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="/"
+      ></i>
+      <i
+        class="icon-item fas fa-anchor hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="#"
+      ></i>
+      <i
+        class="icon-item fas fa-cloud-upload-alt hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="#"
+      ></i>
+      <i
+        class="icon-item fas fa-temperature-high hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="#"
+      ></i>
+      <i
+        class="icon-item fas fa-cloud-sun-rain hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="#"
+      ></i>
+      <i
+        class="icon-item fas fa-fill-drip hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="#"
+      ></i>
+      <i
+        class="icon-item fa-brands fa-cuttlefish hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="/cii"
+        id="cuttlefish"
+      ></i>
+      <i
+        class="icon-item fa-brands fa-sellcast hover:bg-gray-700 p-2 rounded-lg w-9 h-9 flex items-center justify-center cursor-pointer"
+        data-redirect="#"
+      ></i>
+    </div>
   </div>
   <script src="/assets/js/sidebar.js"></script>
 </aside>

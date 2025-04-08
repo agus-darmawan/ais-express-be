@@ -1,0 +1,16 @@
+#sidebar-content {
+  position: relative;
+  z-index: 10;
+}
+
+.custom-control {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#map {
+  position: relative;
+  z-index: 1;
+}

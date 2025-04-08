@@ -18,8 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
     Stadia: stadiaLayer,
   };
 
-  // Position the layer control at the bottom left
-  L.control.layers(baseLayers).setPosition("bottomleft").addTo(map);
+  L.control
+    .layers(baseLayers)
+    .setPosition("bottomleft")
+    .addTo(map)
+    .getContainer();
 
   map.zoomControl.setPosition("bottomleft");
 
