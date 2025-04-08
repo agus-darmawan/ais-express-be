@@ -42,6 +42,8 @@ export const getFuelConsumption = (speed, timeDiff, engineType) => {
   } else {
     fuelEstimate = 1.5103 * Math.exp(-0.064 * speed); // AE formula
   }
-
-  return fuelEstimate; // Fuel consumption in tons (estimated) based on speed and time
+  if (fuelEstimate < 0.5) {
+    fuelEstimate = 0.5;
+  }
+  return fuelEstimate;
 };

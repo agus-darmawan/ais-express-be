@@ -7,20 +7,26 @@ document.addEventListener("DOMContentLoaded", function () {
   const satelliteLayer = L.tileLayer(
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
   );
+  const stadiaLayer = L.tileLayer(
+    "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=f840f83b-f59c-4328-8719-25724810c112"
+  );
   osmLayer.addTo(map);
 
   const baseLayers = {
     Base: osmLayer,
     Satellite: satelliteLayer,
+    Stadia: stadiaLayer,
   };
-  L.control.layers(baseLayers).addTo(map);
-  map.zoomControl.setPosition("topright");
+
+  // Position the layer control at the bottom left
+  L.control.layers(baseLayers).setPosition("bottomleft").addTo(map);
+
+  map.zoomControl.setPosition("bottomleft");
 
   fetch("/api/v1/ais/all")
     .then((response) => response.json())
     .then((data) => {
       data.data.forEach((ship) => {
-        if (ship.mmsi != "525005223") return;
         const heading =
           ship.positions[0].hdg >= 360
             ? ship.positions[0].hdg % 360

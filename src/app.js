@@ -39,6 +39,9 @@ app.set("views", path.join(__dirname, "views"));
 app.get("/", (req, res) => {
   res.render("index");
 });
+app.get("/cii", (req, res) => {
+  res.render("cii");
+});
 
 app.listen(config.port, () => {
   logger.info(`Server running on port ${config.port}`);

@@ -12,6 +12,7 @@ const vesselSchema = new mongoose.Schema({
 
   // Ship General Data
   name: { type: String, required: true },
+  flag: { type: String, required: true },
   imo: { type: String, required: true },
   routeStart: { type: String, required: true },
   routeEnd: { type: String, required: true },
