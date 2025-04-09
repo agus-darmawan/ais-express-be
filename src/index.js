@@ -1,6 +1,8 @@
 import express from "express";
 import connectDB from "./config/db.config.js";
 import { config } from "./config/env.config.js";
+import cors from "cors";
+import corsOptions from "./config/cors.config.js";
 import {
   aisRoutes,
   shipTypeRoutes,
@@ -23,6 +25,8 @@ const app = express();
 connectDB();
 connectSocket();
 
+app.use(cors(corsOptions));
+app.use(express.json());
 app.use(express.json());
 
 app.use("/api/v1", aisRoutes);
