@@ -47,4 +47,6 @@ app.listen(config.port, () => {
   logger.info(`Server running on port ${config.port}`);
 });
 
-export default app;
+export default (req, res) => {
+  app(req, res);
+};
