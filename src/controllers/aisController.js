@@ -74,7 +74,7 @@ export const handleAisData = async (props) => {
         ],
       };
 
-      // return await saveVesselData(vesselData);
+      return await saveVesselData(vesselData);
     }
   } catch (error) {
     console.error("Error handling AIS data:", error.message);
