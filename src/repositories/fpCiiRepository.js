@@ -1,3 +1,4 @@
+import FCii from "../models/fcii.model.js";
 // repositories/fpCiiRepository.js
 import Ais from "../models/ais.model.js";
 import Vessel from "../models/vessel.model.js";
@@ -33,7 +34,65 @@ export const getPositionsByMmsi = async (mmsi) => {
   }
 };
 
-// Get ZValue by year
+export const saveCiiData = async (data) => {
+  try {
+    if (!data || !data.mmsi || !data.ciiData) {
+      throw new Error("Invalid CII data. Cannot save.");
+    }
+
+    const existingCii = await FCii.findOne({ mmsi: data.mmsi });
+
+    if (existingCii) {
+      existingCii.ciiData.push(data.ciiData);
+      existingCii.timestamp = data.timestamp;
+      await existingCii.save();
+      return existingCii;
+    } else {
+      const newCii = new FCii({
+        mmsi: data.mmsi,
+        ciiData: [data.ciiData],
+        timestamp: data.timestamp,
+      });
+      await newCii.save();
+      return newCii;
+    }
+  } catch (error) {
+    throw new Error("Error saving CII data: " + error.message);
+  }
+};
+
+export const getLatestCiiByMmsi = async (mmsi) => {
+  try {
+    const latestCii = await FCii.findOne({ mmsi });
+
+    if (!latestCii || latestCii.ciiData.length === 0) {
+      throw new Error("No CII data found for this MMSI");
+    }
+
+    const latestCiiEntry = latestCii.ciiData[latestCii.ciiData.length - 1];
+
+    return latestCiiEntry;
+  } catch (error) {
+    throw new Error("Error fetching the latest CII: " + error.message);
+  }
+};
+
+export const getCiiRatingsByMmsi = async (mmsi) => {
+  try {
+    const ciiData = await FCii.findOne({ mmsi });
+
+    if (!ciiData || ciiData.ciiData.length === 0) {
+      throw new Error("No CII data found for this MMSI");
+    }
+
+    const ciiRatings = ciiData.ciiData.map((item) => item.ciiRating.number);
+
+    return ciiRatings;
+  } catch (error) {
+    throw new Error("Error fetching CII ratings for MMSI: " + error.message);
+  }
+};
+
 export const getZValueByYear = async (year) => {
   try {
     return await ZValue.findOne({ year });

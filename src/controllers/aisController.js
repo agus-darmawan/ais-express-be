@@ -1,7 +1,10 @@
+import { calculateFpCii } from "../services/fpCiiService.js";
+import FCii from "../models/fcii.model.js";
 import Ais from "../models/ais.model.js";
+import moment from "moment";
 import { apiResponse } from "../utils/apiResponse.js";
+import { saveCiiData } from "../repositories/fpCiiRepository.js";
 
-// Get vessel by MMSI
 const getVesselByMmsi = async (mmsi) => {
   return await Ais.findOne({ mmsi });
 };
@@ -18,7 +21,7 @@ const saveVesselData = async (data) => {
       lastPosition.lat !== newPosition.lat ||
       lastPosition.lon !== newPosition.lon
     ) {
-      return await Ais.findOneAndUpdate(
+      const updatedVessel = await Ais.findOneAndUpdate(
         { mmsi: data.mmsi },
         {
           $push: { positions: newPosition },
@@ -26,6 +29,25 @@ const saveVesselData = async (data) => {
         },
         { new: true }
       );
+
+      const ciiData = await calculateFpCii(data.mmsi);
+
+      try {
+        await FCii.deleteMany({
+          mmsi: data.mmsi,
+          timestamp: { $lt: moment().subtract(24, "hours").toDate() },
+        });
+
+        await saveCiiData({
+          mmsi: data.mmsi,
+          ciiData,
+          timestamp: Date.now(),
+        });
+      } catch (error) {
+        console.error("Error saving CII data:", error.message);
+      }
+
+      return updatedVessel;
     } else {
       console.log(
         "Posisi tidak berubah, tidak ada data baru yang ditambahkan."
@@ -34,7 +56,26 @@ const saveVesselData = async (data) => {
     }
   } else {
     const newVessel = new Ais(data);
-    return await newVessel.save();
+    const savedVessel = await newVessel.save();
+
+    const ciiData = await calculateFpCii(data.mmsi);
+    console.log("CII Data:", ciiData);
+    try {
+      await FCii.deleteMany({
+        mmsi: data.mmsi,
+        timestamp: { $lt: moment().subtract(24, "hours").toDate() },
+      });
+
+      await saveCiiData({
+        mmsi: data.mmsi,
+        ciiData,
+        timestamp: Date.now(),
+      });
+    } catch (error) {
+      console.error("Error saving CII data:", error.message);
+    }
+
+    return savedVessel;
   }
 };
 
@@ -44,13 +85,12 @@ export const handleAisData = async (props) => {
 
   try {
     if (!data || !data.mmsi || !data.lat || !data.lon) {
-      // console.log("Data tidak lengkap atau tidak valid, melewatkan proses...");
       return;
     }
     if (message?.data?.valid) {
-      // if (data.mmsi === "525010323") {
-      //   data.mmsi = "525005223";
-      // }
+      if (data.mmsi === "525010323") {
+        data.mmsi = "525005223";
+      }
       const vesselData = {
         mmsi: data.mmsi,
         channel: data.channel,

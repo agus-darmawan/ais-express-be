@@ -1,10 +1,12 @@
-// routes/fpCiiRoutes.js
 import express from "express";
-import { calculateFpCiiController } from "../../controllers/fpCiiController.js";
+import {
+  getLatestCiiController,
+  getAllCiiRatingsController,
+} from "../../controllers/fpCiiController.js";
 
 const router = express.Router();
 
-// Route to calculate fpCii (First Formula CII)
-router.get("/fpcii/:mmsi", calculateFpCiiController);
+router.get("/latest/:mmsi", getLatestCiiController);
+router.get("/ratings/:mmsi", getAllCiiRatingsController);
 
 export default router;

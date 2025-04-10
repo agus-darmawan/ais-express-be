@@ -55,6 +55,70 @@
       </div>
     </div>
 
+    <div
+      class="bg-[#AAD3DF] h-screen absolute z-10 top-0 right-[28vw] w-72 border-2 border-black flex items-center flex-col justify-center rounded-lg shadow-xl box-border gap-5"
+    >
+      <div
+        id="cii-chart"
+        class="w-[90%] h-60 bg-white border border-black rounded-lg"
+      >
+        grafil line dari
+      </div>
+      <div
+        id="cii-value"
+        class="w-[90%] bg-white border border-black rounded-lg p-2"
+      >
+        <h3 class="text-lg font-bold mb-2">CII Value</h3>
+        <div class="text-left text-xs space-y-0.5">
+          <p><b>ME Fuel Consumption :</b> 100 Liter</p>
+          <p><b>AE Fuel Consumption :</b> 100 Liter</p>
+          <p><b>Total Fuel Consumption :</b> 100 Liter</p>
+
+          <div class="border-b-2 border-gray-400 w-full mx-auto my-2"></div>
+
+          <p><b>CII Required :</b> 100 Liter</p>
+          <p><b>CII Attained :</b> 100 Liter</p>
+
+          <div class="border-b-2 border-gray-400 w-full mx-auto my-2"></div>
+
+          <p><b>CII Score</b></p>
+          <p><b>Score :</b> 100</p>
+          <p><b>Grade :</b> A</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="cii-modal"
+      class="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50 hidden"
+    >
+      <div
+        class="bg-white rounded-lg shadow-lg p-6 w-[26vw] text-center relative"
+      >
+        <h2 class="text-sm font-semibold mb-4">Select Calculation Method</h2>
+        <div class="flex justify-center gap-2">
+          <button
+            id="cii-estimation1"
+            class="bg-[#AAD3DF] text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-xs"
+          >
+            Use Estimation 1
+          </button>
+          <button
+            id="cii-estimation2"
+            class="bg-[#AAD3DF] text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-xs"
+          >
+            Use Estimation 2
+          </button>
+        </div>
+        <button
+          id="cii-close-modal"
+          class="absolute top-2 right-2 text-xl text-gray-600 hover:text-gray-800 z-100"
+        >
+          <i class="fas fa-times text-red-700 text-2xl"></i>
+        </button>
+      </div>
+    </div>
+
     <%- include('components/sidebar') %> <%- include('components/fullmap') %>
 
     <script
